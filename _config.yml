@@ -1,0 +1,11 @@
+title: curve.market
+baseurl: ""
+url: "https://curve.market"
+
+github_url: https://github.com/curvemarket
+wechat_url: https://wechat.com
+telegram_url: https://t.me/curvemarket
+
+sass:
+  sass_dir: _sass
+  style: compressed

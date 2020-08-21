@@ -1,0 +1,74 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #caf0f8;
+  color: #023e8a;
+}
+
+button {
+  background: #0096c7;
+  border-color: #0077b6;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 16px;
+  padding: 6px;
+  &:hover {
+    background: #00b4d8;
+    cursor: pointer;
+  }
+
+  &.wechat {
+    background: #5CC928;
+    border-color: #2F8819;
+    color: #fafbfc;
+    &:hover {
+      background: #7aa360;
+    }
+  }
+
+  &.github {
+    background: #24292e;
+    border-color: #404448;
+    color: #fafbfc;
+    &:hover {
+      background: #53575a;
+    }
+  }
+}
+
+.home {
+  max-width: 600px;
+  margin: 0 auto;
+
+  b, a {
+    color: #00b4d8;
+    text-decoration: none;
+  }
+
+  .title {
+    text-align: center;
+    .logo {
+      height: 40px;
+      position: absolute;
+      margin-left: -50px;
+    }
+  }
+
+  .content {
+    box-shadow: 2px 0 4px 2px #90e0ef;
+    border-radius: 10px;
+    background: #ade8f4;
+    padding: 2px 15px;
+
+    .social {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+
+  .footer {
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+}

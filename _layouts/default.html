@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="{{ page.language }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ site.title }} • {{ page.title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="theme-color" content="#5e70e4">
+    <meta name="msapplication-TileColor" content="#5e70e4">
+
+    <meta property="og:title" content="{{ site.title }} • {{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ '/assets/images/curve.png' | relative_url }}">
+    <meta property="og:description" content="{{ page.description }}">
+
+    <link href="//fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/curve.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/curve.png' | relative_url }}"/>
+</head>
+
+<body>
+<div class="home">
+    <div class="title">
+        <h1>
+            <img src="{{ '/assets/images/curve.png' | relative_url }}" alt="curve.market logo" class="logo">
+            curve.market
+        </h1>
+    </div>
+    <div class="content">
+        {{ content }}
+
+        <div class="social">
+            <a href="{{ site.telegram_url }}">
+                <button>Telegram</button>
+            </a>
+            <a href="{{ site.wechat_url }}">
+                <button class="wechat">WeChat</button>
+            </a>
+            <a href="{{ site.github_url }}">
+                <button class="github">GitHub</button>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        English • <a href="/cn/">中文</a>
+    </div>
+</div>
+</body>
+</html>
