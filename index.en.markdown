@@ -10,7 +10,7 @@ Redefining DeFi trading. Creating a more advanced DeFi swap interface with a fai
 
 <b>Fee distribution to token holders</b><br>
 90% of the fees will be distributed to token holders, 10% will be used for platform upkeep.
-100% of the tokens will be sold. No pre-mine or pre-sale. Unsold tokens will be burned. We aim to raise $100K USD.
+100% of the tokens will be sold. No pre-mine or pre-sale. Unsold tokens will be burned. We aim to raise $250K USD.
 
 <b>Injecting into Uniswap liquidity pools</b><br>
 Besides bringing in liquidity through curve.market liquidity pools, our matching engine will connect

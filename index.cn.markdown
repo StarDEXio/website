@@ -1,23 +1,20 @@
 ---
-title: Redefining DeFi
+title: 重新定义去中心化金融（DeFi
 layout: default
 language: cn
 permalink: /cn
-description: Redefining DeFi trading, bringing decentralized finance to the masses, including a fair fee distribution system and advanced trading interface.
+description: 重新定义去中心化金融（DeFi）交易，将去中心化金融带给大众，实现公平的费用分配系统和更加先进的交易界面。
 ---
 
-Redefining DeFi trading. Creating a more advanced DeFi swap interface with a fair fee distribution system. Uniswap 2.0.
+重新定义去中心化金融（DeFi）交易，将去中心化金融带给大众，实现公平的费用分配系统和更加先进的交易界面。
 
-<b>Fee distribution to token holders</b><br>
-90% of the fees will be distributed to token holders, 10% will be used for platform upkeep.
-100% of the tokens will be sold. No pre-mine or pre-sale. Unsold tokens will be burned. We aim to raise $100K USD.
+<b>给予代币持有者的手续费分配</b><br>
+90％的手续费用将被分配给代币持有者，其中10％将会用于平台维护。 100％的代币将被出售。 没有预挖矿或预售。 未售出的代币将被销毁。 我们的筹集目标是25万美元。
 
-<b>Injecting into Uniswap liquidity pools</b><br>
-Besides bringing in liquidity through curve.market liquidity pools, our matching engine will connect
-with the Uniswap liquidity pools and use that as additional liquidity to match orders.
+<b>注入Uniswap流动资金池</b><br>
+除了通过curve.market流动池引入流动性外，我们的匹配引擎还将与Uniswap流动性池连接，并将其用作匹配单的额外流动性。
 
-<b>Advanced but friendly UI</b><br>
-We will be releasing a more user friendly user interface to bring DeFi to mainstream. Trading on curve.market
-will feel like you are using a centralized exchange UI while trading fully decentralized.
+<b>先进且简洁用户界面</b><br>
+我们将发布更加简介且容易使用的用户界面，以将DeFi推向主流。 在curve.market上进行交易给用户的感觉将会像在使用集中式交易所的UI，但实际交易却是完全去中心化的。
 
-<b>curve.market</b> is still at a very early stage but moving fast. For latest updates refer to our social media channels listed below.
+<b>curve.market</b> t仍处于起步阶段，但发展的非常迅速。 有关最新更新，请参阅下面列出的社交媒体频道。

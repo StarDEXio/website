@@ -38,8 +38,8 @@
             <a href="{{ site.telegram_url }}">
                 <button>Telegram</button>
             </a>
-            <a href="{{ site.wechat_url }}">
-                <button class="wechat">WeChat</button>
+            <a href="#">
+                <button class="wechat" onclick="alert('Coming soon');">One Pager</button>
             </a>
             <a href="{{ site.github_url }}">
                 <button class="github">GitHub</button>
@@ -47,7 +47,11 @@
         </div>
     </div>
     <div class="footer">
-        English • <a href="/cn/">中文</a>
+        {% if page.language == 'en' %}
+            English • <a href="/cn/">中文</a>
+        {% else %}
+            <a href="/">English</a> • 中文
+        {% endif %}
     </div>
 </div>
 </body>
