@@ -2,7 +2,7 @@
 title: 重新定义去中心化金融（DeFi
 layout: default
 language: cn
-permalink: /cn
+permalink: /cn/
 description: 重新定义去中心化金融（DeFi）交易，将去中心化金融带给大众，实现公平的费用分配系统和更加先进的交易界面。
 ---
 
