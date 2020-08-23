@@ -1,144 +1,141 @@
 <html lang="{{ page.language }}">
-  <html>
-    <title>Curve.market</title>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{ site.title }} • {{ page.title }}</title>
 
-    <title>{{ site.title }} • {{ page.title }}</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="theme-color" content="#5e70e4"/>
+  <meta name="msapplication-TileColor" content="#5e70e4"/>
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="theme-color" content="#5e70e4" />
-    <meta name="msapplication-TileColor" content="#5e70e4" />
+  <meta property="og:title" content="{{ site.title }} • {{ page.title }}"/>
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:type" content="website"/>
+  <meta
+    property="og:image"
+    content="{{ '/assets/images/curve.png' | relative_url }}"
+  />
+  <meta property="og:description" content="{{ page.description }}"/>
 
-    <meta property="og:title" content="{{ site.title }} • {{ page.title }}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="{{ '/assets/images/curve.png' | relative_url }}"
-    />
-    <meta property="og:description" content="{{ page.description }}" />
+  <link
+    href="//fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
 
-    <link
-      href="//fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="{{ '/assets/curve.css' | relative_url }}" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="{{ '/assets/images/curve.png' | relative_url }}"
-    />
-
-    <body>
-      <div class="container" id="main-container">
-        <div class="main-left" id="main-left">
-          <div class="main-left__topbar">
-            <img
-              src="{{ '/assets/images/curve_logo.png' | relative_url }}"
-              alt="curve logo"
-              class="main-left__topbar__logo"
-            />
-            <a class="launch-btn" id="launchApp" href="#">Launch app</a>
-          </div>
-          <div class="main-left__text" id="main-left__text">
-            <div class="lang-picker">
-              {% if page.language == 'en' %}
-                English • <a href="/cn">中文</a>
-                {% else %}
-                <a href="/">English</a> • 中文
-              {% endif %}
-            </div>
-            <h1>CURVE<span>.</span></h1>
-            <p>
-              {{ page.description }}
-            </p>
-          </div>
-          <div class="main-left__text-alt" id="main-left__text-alt">
-            <h1>CURVE<span>.</span>MARKET</h1>
-            <p>
-              COMING SOON.
-            </p>
-          </div>
-          <div class="main-left__contact">
-            <p>
-              {{ page.more }}
-            </p>
-            <a
-              href="{{ site.telegram_url }}"
-              class="contact-btn contact-btn--telegram"
-            >
-              <img
-                src="{{ '/assets/images/telegram_logo.png' | relative_url }}"
-                alt="telegram"
-              />
-              <span>Telegram</span>
-            </a>
-
-            <a
-              href="{{ site.github_url }}"
-              target="_blank"
-              class="contact-btn contact-btn--onepager"
-            >
-              <img
-                src="{{ '/assets/images/github_logo.png' | relative_url }}"
-                alt="github"
-              /><span>Github </span>
-            </a>
-          </div>
-        </div>
-        <div class="main-right" id="main-right">
-          {{ content }}
-        </div>
+  <link rel="stylesheet" href="{{ '/assets/curve.css' | relative_url }}"/>
+  <link
+    rel="icon"
+    type="image/png"
+    href="{{ '/assets/images/curve.png' | relative_url }}"
+  />
+</head>
+<body>
+<div class="container" id="main-container">
+  <div class="main-left" id="main-left">
+    <div class="main-left__topbar">
+      <img
+        src="{{ '/assets/images/curve_logo.png' | relative_url }}"
+        alt="curve logo"
+        class="main-left__topbar__logo"
+      />
+      <a class="launch-btn" id="launchApp" href="#">Launch app</a>
+    </div>
+    <div class="main-left__text" id="main-left__text">
+      <div class="lang-picker">
+        {% if page.language == 'en' %}
+          English • <a href="/cn">中文</a>
+          {% else %}
+          <a href="/">English</a> • 中文
+        {% endif %}
       </div>
-      <script>
+      <h1>CURVE<span>.</span></h1>
+      <p>
+        {{ page.description }}
+      </p>
+    </div>
+    <div class="main-left__text-alt" id="main-left__text-alt">
+      <h1>CURVE<span>.</span>MARKET</h1>
+      <p>
+        COMING SOON.
+      </p>
+    </div>
+    <div class="main-left__contact">
+      <p>
+        {{ page.more }}
+      </p>
+      <a
+        href="{{ site.telegram_url }}"
+        class="contact-btn contact-btn--telegram"
+      >
+        <img
+          src="{{ '/assets/images/telegram_logo.png' | relative_url }}"
+          alt="telegram"
+        />
+        <span>Telegram</span>
+      </a>
+
+      <a
+        href="{{ site.github_url }}"
+        target="_blank"
+        class="contact-btn contact-btn--onepager"
+      >
+        <img
+          src="{{ '/assets/images/github_logo.png' | relative_url }}"
+          alt="github"
+        /><span>Github </span>
+      </a>
+    </div>
+  </div>
+  <div class="main-right" id="main-right">
+    {{ content }}
+  </div>
+</div>
+<script>
+  document
+    .getElementById("launchApp")
+    .addEventListener("click", function () {
         document
-          .getElementById("launchApp")
-          .addEventListener("click", function () {
-            document
-              .getElementById("main-left")
-              .classList.add("animate-launch");
-            document.getElementById("launchApp").classList.add("display-none");
-            document.getElementById("main-right").classList.add("width-none");
-            document
-              .getElementById("main-container")
-              .classList.add("no-scroll");
-            document
-              .getElementById("main-left__text")
-              .classList.add("display-none");
+            .getElementById("main-left")
+            .classList.add("animate-launch")
+        document.getElementById("launchApp").classList.add("display-none")
+        document.getElementById("main-right").classList.add("width-none")
+        document
+            .getElementById("main-container")
+            .classList.add("no-scroll")
+        document
+            .getElementById("main-left__text")
+            .classList.add("display-none")
 
-            setTimeout(function () {
-              document
+        setTimeout(function () {
+            document
                 .getElementById("main-left__text-alt")
-                .classList.add("display-block");
+                .classList.add("display-block")
 
-              document
+            document
                 .getElementById("main-left__text")
-                .classList.add("position-absolute");
-            }, 800);
-          });
-      </script>
+                .classList.add("position-absolute")
+        }, 800)
+    })
+</script>
 
-      {% if page.language == 'en' %}
-        <script>
-          const lang = window.navigator.userLanguage || window.navigator.language;
-          if (lang && lang.toLowerCase().includes('zh') && localStorage.getItem('redirected') === null) {
-            localStorage.setItem('redirected', '1')
-            location.href += 'cn'
-          }
-        </script>
-      {% else %}
-        <script>
+{% if page.language == 'en' %}
+  <script>
+      const lang = window.navigator.userLanguage || window.navigator.language
+      if (lang && lang.toLowerCase().includes('zh') && localStorage.getItem('redirected') === null) {
           localStorage.setItem('redirected', '1')
-        </script>
-      {% endif %}
+          location.href += 'cn'
+      }
+  </script>
+  {% else %}
+  <script>
+      localStorage.setItem('redirected', '1')
+  </script>
+{% endif %}
 
-    </body>
-  </html>
+</body>
 </html>
