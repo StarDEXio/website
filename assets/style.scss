@@ -27,6 +27,7 @@ p {
   box-shadow: 5px 0 50px -17px rgba(0, 0, 0, 0.5);
   padding: 30px 50px 80px 50px;
   display: flex;
+  min-height: unset;
   flex-direction: column;
   justify-content: space-between;
   transition: 1s all ease-in-out;
@@ -170,6 +171,7 @@ p {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-height: unset;
   transition: 1s all ease-in-out;
 
   h2 {
@@ -267,6 +269,10 @@ p {
       left: 10px;
     }
   }
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 600px) {
