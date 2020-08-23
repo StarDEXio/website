@@ -1,6 +1,6 @@
 ---
 title: Redefining DeFi
-layout: default
+layout: index
 language: en
 permalink: /
 description: Redefining DeFi trading, bringing decentralized finance to the masses, including a fair fee distribution system and advanced trading interface.
