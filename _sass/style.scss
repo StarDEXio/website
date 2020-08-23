@@ -148,15 +148,15 @@ p {
 }
 
 .launch-btn {
+  font-family: "Nunito Sans", sans-serif;
   text-decoration: none;
   padding: 10px 20px;
-  background: #ffffff;
   box-shadow: 6px 4px 20px -8px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   background: #ffde7f;
-  font-family: AvenirNext-Regular;
   font-size: 18px;
   color: #353535;
+  font-weight: bold;
   letter-spacing: -0.19px;
   text-align: left;
   transition: 0.5s all;
@@ -224,7 +224,7 @@ p {
 .contact-btn {
   text-decoration: none;
   //   box-shadow: -6px -4px 20px -8px rgba(234, 234, 234, 0.5);
-  box-shadow: -1px 3px 20px 6px rgb(0 0 0 / 13%);
+  box-shadow: -1px 3px 20px 6px rgba(234, 234, 234, 0.5);
   border-radius: 8px;
   padding: 15px 0;
   color: #000;
@@ -268,6 +268,10 @@ p {
       top: 9px;
       left: 10px;
     }
+  }
+
+  &:hover {
+    opacity: 0.75;
   }
 }
 
@@ -454,7 +458,7 @@ p {
   .contact-btn {
     text-decoration: none;
     //   box-shadow: -6px -4px 20px -8px rgba(234, 234, 234, 0.5);
-    box-shadow: -1px 3px 20px 6px rgb(0 0 0 / 13%);
+    box-shadow: -1px 3px 20px 6px rgba(234, 234, 234, 0.5);
     border-radius: 8px;
     padding: 15px 0;
     color: #000;
@@ -501,5 +505,13 @@ p {
         left: 10px;
       }
     }
+  }
+}
+
+.lang-picker {
+  font-size: 12px;
+  a {
+    font-weight: bold;
+    color: #000;
   }
 }

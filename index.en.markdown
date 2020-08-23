@@ -3,21 +3,30 @@ title: Redefining DeFi
 layout: index
 language: en
 permalink: /
-description: Redefining DeFi trading, bringing decentralized finance to the masses, including a fair fee distribution system and advanced trading interface.
+description: Redefining DeFi trading. A fully decentralized protocol with a more advanced DeFi swap interface including a fair fee distribution system and advanced matching engine.
+more: <span>CURVE.MARKET</span> is still at a very early stage but moving fast. For latest updates refer to our social media channels listed below.
 ---
 
-Redefining DeFi trading. Creating a more advanced DeFi swap interface with a fair fee distribution system. Uniswap 2.0.
-
-<b>Fee distribution to token holders</b><br>
-90% of the fees will be distributed to token holders, 10% will be used for platform upkeep.
-100% of the tokens will be sold. No pre-mine or pre-sale. Unsold tokens will be burned. We aim to raise $250K USD.
-
-<b>Injecting into Uniswap liquidity pools</b><br>
-Besides bringing in liquidity through curve.market liquidity pools, our matching engine will connect
-with the Uniswap liquidity pools and use that as additional liquidity to match orders.
-
-<b>Advanced but friendly UI</b><br>
-We will be releasing a more user friendly user interface to bring DeFi to mainstream. Trading on curve.market
-will feel like you are using a centralized exchange UI while trading fully decentralized.
-
-<b>curve.market</b> is still at a very early stage but moving fast. For latest updates refer to our social media channels listed below.
+<div class="main-right__top">
+    <h2>Fee distribution.</h2>
+    <p>
+      90% of the fees will be distributed to token holders, 10% will be
+      used for platform upkeep. 100% of the tokens will be sold. 
+      Unsold tokens will be burned. We aim to raise $250K USD.
+    </p>
+</div>
+<div class="main-right__mid">
+    <h2>Liquidity aggregation.</h2>
+    <p>
+      The biggest challenge running a trading platform or exchange is maintaining liquidity. 
+      curve.market will function as a DEX aggregator that pools liquidity from multiple DEXes. This will make it possible to use curve.market as an interface for multiple decentralized exchanges. 
+    </p>
+</div>
+<div class="main-right__bottom">
+    <h2>Advanced but friendly UI.</h2>
+    <p>
+      We will be releasing a more user friendly user interface to bring
+      DeFi to mainstream. Trading on curve.market will feel like you are
+      using a centralized exchange UI while trading fully decentralized.
+    </p>
+</div>

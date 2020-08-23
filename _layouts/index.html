@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="{{ '/assets/images/style.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/curve.css' | relative_url }}" />
     <link
       rel="icon"
       type="image/png"
@@ -48,10 +48,16 @@
             <a class="launch-btn" id="launchApp" href="#">Launch app</a>
           </div>
           <div class="main-left__text" id="main-left__text">
+            <div class="lang-picker">
+              {% if page.language == 'en' %}
+                English • <a href="/cn">中文</a>
+                {% else %}
+                <a href="/">English</a> • 中文
+              {% endif %}
+            </div>
             <h1>CURVE<span>.</span></h1>
             <p>
-              Redefining DeFi trading. Creating a more advanced DeFi swap
-              interface with a fair fee distribution system. Uniswap 2.0.
+              {{ page.description }}
             </p>
           </div>
           <div class="main-left__text-alt" id="main-left__text-alt">
@@ -62,9 +68,7 @@
           </div>
           <div class="main-left__contact">
             <p>
-              <span>CURVE.MARKET</span> is still at a very early stage but
-              moving fast. For latest updates refer to our social media channels
-              listed below.
+              {{ page.more }}
             </p>
             <a
               href="{{ site.telegram_url }}"
@@ -90,31 +94,7 @@
           </div>
         </div>
         <div class="main-right" id="main-right">
-          <div class="main-right__top">
-            <h2>Fee distribution.</h2>
-            <p>
-              90% of the fees will be distributed to token holders, 10% will be
-              used for platform upkeep. 100% of the tokens will be sold. No
-              pre-mine or pre-sale. Unsold tokens will be burned. We aim to
-              raise $100K USD.
-            </p>
-          </div>
-          <div class="main-right__mid">
-            <h2>Uniswap liquidity pools.</h2>
-            <p>
-              We will be releasing a more user friendly user interface to bring
-              DeFi to mainstream. Trading on curve.market will feel like you are
-              using a centralized exchange UI while trading fully decentralized.
-            </p>
-          </div>
-          <div class="main-right__bottom">
-            <h2>Advanced but friendly UI.</h2>
-            <p>
-              We will be releasing a more user friendly user interface to bring
-              DeFi to mainstream. Trading on curve.market will feel like you are
-              using a centralized exchange UI while trading fully decentralized.
-            </p>
-          </div>
+          {{ content }}
         </div>
       </div>
       <script>
@@ -144,6 +124,21 @@
             }, 800);
           });
       </script>
+
+      {% if page.language == 'en' %}
+        <script>
+          const lang = window.navigator.userLanguage || window.navigator.language;
+          if (lang && lang.toLowerCase().includes('en') && localStorage.getItem('redirected') === null) {
+            localStorage.setItem('redirected', '1')
+            location.href += 'cn'
+          }
+        </script>
+      {% else %}
+        <script>
+          localStorage.setItem('redirected', '1')
+        </script>
+      {% endif %}
+
     </body>
   </html>
 </html>
