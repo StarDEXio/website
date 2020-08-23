@@ -29,7 +29,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="{{ 'assets/style.css' | relative_url }}" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -37,7 +37,7 @@
     />
 
     <body>
-      <div class="container">
+      <div class="container" id="main-container">
         <div class="main-left" id="main-left">
           <div class="main-left__topbar">
             <img
@@ -96,7 +96,7 @@
               90% of the fees will be distributed to token holders, 10% will be
               used for platform upkeep. 100% of the tokens will be sold. No
               pre-mine or pre-sale. Unsold tokens will be burned. We aim to
-              raise $250K USD.
+              raise $100K USD.
             </p>
           </div>
           <div class="main-right__mid">
@@ -126,7 +126,9 @@
               .classList.add("animate-launch");
             document.getElementById("launchApp").classList.add("display-none");
             document.getElementById("main-right").classList.add("width-none");
-
+            document
+              .getElementById("main-container")
+              .classList.add("no-scroll");
             document
               .getElementById("main-left__text")
               .classList.add("display-none");
