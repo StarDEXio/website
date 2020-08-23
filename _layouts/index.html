@@ -128,7 +128,7 @@
       {% if page.language == 'en' %}
         <script>
           const lang = window.navigator.userLanguage || window.navigator.language;
-          if (lang && lang.toLowerCase().includes('en') && localStorage.getItem('redirected') === null) {
+          if (lang && lang.toLowerCase().includes('zh') && localStorage.getItem('redirected') === null) {
             localStorage.setItem('redirected', '1')
             location.href += 'cn'
           }
