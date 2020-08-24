@@ -3,6 +3,7 @@ title: Redefining DeFi
 layout: index
 language: en
 permalink: /
+onepager_url: /assets/onepager.pdf
 description: Redefining DeFi trading. A fully decentralized protocol with a more advanced DeFi swap interface including a fair fee distribution system and advanced matching engine.
 more: <span>CURVE.MARKET</span> is still at a very early stage but moving fast. For latest updates refer to our social media channels listed below.
 ---

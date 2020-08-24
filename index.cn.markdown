@@ -3,6 +3,7 @@ title: 重新定义去中心化金融（DeFi）交易
 layout: index
 language: cn
 permalink: /cn/
+onepager_url: /assets/onepager_cn.pdf
 description: 重新定义去中心化金融（DeFi）交易. 全去中心化的协议，带有更高级的DeFi交易界面，包括更加公平的手续费用分配系统和高级匹配引擎。
 more: <span>CURVE.MARKET</span> 仍处于起步阶段，但发展的非常迅速。 有关最新更新，请参阅下面列出的社交媒体频道。
 ---
