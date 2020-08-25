@@ -261,8 +261,6 @@ p {
 
   &--github {
     background: #ffcf47;
-
-   
   }
 
   &--onepager {
@@ -293,7 +291,6 @@ p {
   .main-left {
     z-index: 10;
     width: 100vw;
-    min-height: 900px;
     background: #ffffff;
     box-shadow: 5px 0 50px -17px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
@@ -398,7 +395,6 @@ p {
 
   .main-right {
     background-color: gray;
-    min-height: 1200px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -424,32 +420,32 @@ p {
     }
 
     &__top {
-      flex: 1;
+      flex: none;
       background: #ffcf47;
       padding-left: 10%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: block;
+      flex-direction: unset;
+      justify-content: unset;
       padding: 50px;
     }
 
     &__mid {
-      flex: 1;
+      flex: none;
       background: #e6e6e6;
       padding-left: 10%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: block;
+      flex-direction: unset;
+      justify-content: unset;
       padding: 50px;
     }
 
     &__bottom {
-      flex: 1;
+      flex: none;
       background: #ff9264;
       padding-left: 10%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: block;
+      flex-direction: unset;
+      justify-content: unset;
       padding: 50px;
     }
   }
