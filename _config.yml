@@ -1,9 +1,9 @@
-title: curve.market
+title: StarCurve
 baseurl: ""
-url: "https://curve.market"
+url: "https://starcurve.io"
 
-github_url: https://github.com/curvemarket
-telegram_url: https://t.me/curvemarket
+github_url: https://github.com/starcurve
+telegram_url: https://t.me/starcurve
 
 sass:
   sass_dir: _sass
