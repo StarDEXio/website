@@ -53,9 +53,9 @@ p {
     transition: 0.8s all ease-in-out;
 
     h1 {
-      font-size: 100px;
+      font-size: 70px;
       font-weight: 800;
-      letter-spacing: 7.67px;
+      letter-spacing: 5.67px;
 
       span {
         font-family: "Nunito", sans-serif;
@@ -276,7 +276,7 @@ p {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
   .container {
     display: flex;
     flex: 1;
