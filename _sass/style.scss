@@ -18,6 +18,13 @@ p {
   margin: 0;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 .container {
   display: flex;
   flex: 1;
