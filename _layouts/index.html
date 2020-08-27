@@ -34,7 +34,7 @@
     href="{{ '/assets/images/curve.png' | relative_url }}"
   />
 </head>
-<body>
+<body class="preload">
 <div class="container" id="main-container">
   <div class="main-left" id="main-left">
     <div class="main-left__topbar">
@@ -114,6 +114,7 @@
   document
     .getElementById("launchApp")
     .addEventListener("click", function () {
+        document.body.classList.remove('preload')
         document
             .getElementById("main-left")
             .classList.add("animate-launch")
