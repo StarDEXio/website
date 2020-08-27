@@ -160,10 +160,30 @@ p {
   background: #ffde7f;
   font-size: 18px;
   color: #353535;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: -0.19px;
   text-align: left;
   transition: 0.5s all;
+
+  &:hover {
+    background: #f9cc4b;
+  }
+}
+
+.tokensale-btn {
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  box-shadow: 6px 4px 20px -8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background: #ffde7f;
+  font-size: 18px;
+  color: #353535;
+  font-weight: normal;
+  letter-spacing: -0.19px;
+  text-align: left;
+  transition: 0.5s all;
+  margin-top: 50px;
 
   &:hover {
     background: #f9cc4b;
