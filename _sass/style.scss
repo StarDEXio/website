@@ -295,6 +295,14 @@ p {
   &--onepager {
     background: #00c600;
   }
+  
+  &--medium {
+    background: #000;
+  }
+  
+  &--twitter {
+    background: #00A1F9;
+  }
 
   &:hover {
     opacity: 0.75;
