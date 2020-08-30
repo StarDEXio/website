@@ -4,6 +4,8 @@ url: "https://starcurve.io"
 
 github_url: https://github.com/starcurve
 telegram_url: https://t.me/starcurve
+medium_url: https://medium.com/@StarCurve
+twitter_url: https://twitter.com/starcurve
 
 sass:
   sass_dir: _sass
