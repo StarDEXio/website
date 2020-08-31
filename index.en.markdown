@@ -12,8 +12,8 @@ more: <span>StarCurve</span> is still at a very early stage but moving fast. For
     <h2>Fee distribution.</h2>
     <p>
       90% of the fees will be distributed to token holders, 10% will be
-      used for platform upkeep. 97% of the tokens will be sold. 
-      Unsold tokens will be burned.
+      used for platform upkeep. 90% of the tokens will be sold. 
+      Unsold tokens will be added to the liquidity pool.
     </p>
 </div>
 <div class="main-right__mid">
