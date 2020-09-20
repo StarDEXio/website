@@ -2,11 +2,23 @@ title: StarCurve
 baseurl: ""
 url: "https://starcurve.io"
 
-github_url: https://github.com/starcurve
-telegram_url: https://t.me/starcurve
-medium_url: https://medium.com/@StarCurve
-twitter_url: https://twitter.com/starcurve
+repository: StarCurve/website
+
+token_contract: "0xC0E47007e084EEF3EE58eb33D777b3B4Ca98622f"
+
+links:
+  telegram: "https://t.me/StarCurveUpdates"
+  telegram_en: "https://t.me/StarCurve"
+  telegram_vn: "https://t.me/StarCurveVN"
+  telegram_jp: "https://t.me/StarCurveJP"
+  telegram_id: "https://t.me/StarCurveID"
+  medium: "https://medium.com/@StarCurve"
+  twitter: "https://twitter.com/StarCurve"
+  github: "https://github.com/StarCurve"
 
 sass:
   sass_dir: _sass
   style: compressed
+
+plugins:
+  - "jekyll-github-metadata"

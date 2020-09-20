@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StarCurve • Redefining DeFi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/curve.png' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/uikit.min.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/theme.css' | relative_url }}"/>
+  <script src="{{ '/assets/js/uikit.min.js' | relative_url }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="theme-color" content="#5e70e4"/>
+  <meta name="msapplication-TileColor" content="#5e70e4"/>
+
+  <meta property="og:title" content="StarCurve • Redefining DeFi"/>
+  <meta property="og:site_name" content="StarCurve"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="{{ '/assets/images/curve.png' | relative_url }}"/>
+  <meta property="og:description" content="{{ page.description }}"/>
+</head>
+<body>
+
+<div class="uk-container">
+  <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo uk-animation-slide-left" href="/">
+        <img src="{{ '/assets/images/token_icon.png' | relative_url }}" alt="StarCurve logo"
+             class="uk-hidden@s logo token">
+        <img src="{{ '/assets/images/starcurve_text_logo.png' | relative_url }}" alt="StarCurve logo"
+             class="uk-visible@s logo">
+      </a>
+    </div>
+    <div class="uk-navbar-right uk-animation-slide-right">
+      <ul class="uk-navbar-nav">
+        <li>
+          <a href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency={{ site.token_contract }}"
+             class="uniswap">
+            <img src="{{ '/assets/images/uniswap.png' | relative_url }}" alt="Uniswap icon" class="uniswap-header">
+            Buy XSTAR
+          </a>
+        </li>
+        <li>
+          <a href="https://stake.starcurve.io" class="stake">Stake XSTAR</a>
+        </li>
+        <li class="launch-app">
+          <a class="uk-button sc-button" href="https://trade.starcurve.io">
+            Launch App <img src="{{ '/assets/images/emojis/rocket.png' | relative_url }}">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="filter"
+       class="uk-height-large uk-background-cover uk-light uk-flex uk-margin-bottom uk-animation-slide-top-small"
+       uk-parallax="bgy: -200; sepia: 100;"
+       style="background-image: url('{{ '/assets/images/starcurve_banner.png' | relative_url }}');">
+    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"
+         uk-parallax="target: #filter; blur: 0,10;">
+      <h1>Redefining DeFi</h1>
+      <p>The next generation DEX aggregator</p>
+    </div>
+  </div>
+
+  <div class="uk-grid-match uk-margin-medium-top uk-animation-slide-bottom" uk-grid>
+    <div class="uk-width-2-3@m">
+      <h2 class="uk-heading-bullet">DeFi for everyone</h2>
+      <p class="uk-margin-small">
+        Our goal is to create a user-friendly and improved UI and DEX aggregator for decentralized trading.
+        With the rise in popularity of DeFi and decentralized exchanges, like Uniswap, the founding team concluded
+        that the current state of decentralized exchanges and its procedures are too complicated and user unfriendly.
+      </p>
+      <p class="uk-margin-small">
+        We want to bring mass adoption to DeFi trading by creating friendly UIs and improved mobile trading experience
+        for users by launching mobile apps on multiple operating systems. Our goal is to achieve a centralized trading
+        experience while trading fully decentralized.
+      </p>
+    </div>
+    <div class="uk-width-1-3@m">
+      <img src="{{ '/assets/images/fp_share.png' | relative_url }}" class="fp_graph">
+    </div>
+  </div>
+
+  <div class="uk-divider-icon uk-padding-small uk-animation-slide-bottom"></div>
+
+  <div class="uk-grid-match uk-animation-slide-bottom" uk-grid>
+    <div class="uk-width-1-3@m">
+      <img src="{{ '/assets/images/fp_graph.png' | relative_url }}" class="fp_graph">
+    </div>
+    <div class="uk-width-2-3@m">
+      <h2 class="uk-heading-bullet">Get paid to trade</h2>
+      <p class="uk-margin-small">
+        Traders on our platform will get rewarded in our XSTAR token. Every trade will earn some XSTAR, this serves
+        as incentive to attract more users and traders to the platform.
+      </p>
+      <p class="uk-margin-small">
+        StarCurve is a DEX aggregator. Our engine will index liquidity from various DEXes and get the best
+        possible match for your trade.
+      </p>
+      <p class="uk-margin-small">
+        Our roadmap includes implementing advanced order types, such as limit order, in our engine. A
+        layer-2 solution to bring even more advanced order types to DeFi trading is also described in our roadmap.
+      </p>
+    </div>
+  </div>
+
+  <div class="uk-divider-icon uk-padding-small uk-animation-slide-bottom"></div>
+
+  <div class="uk-grid-match uk-animation-slide-bottom" uk-grid>
+    <div class="uk-width-2-3@m">
+      <h2 class="uk-heading-bullet">Staking 2.0</h2>
+      <p class="uk-margin-small">
+        XSTAR token holders can stake their XSTAR UNI-V2 LP tokens in our <a href="https://stake.starcurve.io">staking portal</a>.
+      </p>
+      <p class="uk-margin-small">
+        Rewards are paid out from our liquidity pool, and not minted. This means the XSTAR total supply will
+        not increase, unlike other farming/staking incentives.
+      </p>
+      <p class="uk-margin-small">
+        Besides rewards from our liquidity pool, 90% of the fees collected through our trading platform will go to
+        the token holders. This serves as additional bonus on top of the liquidity pool rewards.
+      </p>
+    </div>
+    <div class="uk-width-1-3@m">
+      <img src="{{ '/assets/images/fp_stake.png' | relative_url }}" class="fp_graph">
+    </div>
+    <!--      <a class="uk-button sc-button" href="https://stake.starcurve.io">-->
+    <!--        Stake XSTAR-->
+    <!--      </a>-->
+  </div>
+
+  <!--  <div class="uk-divider-icon uk-padding-small uk-animation-slide-bottom"></div>-->
+</div>
+
+<div class="uk-container uk-margin-large-top uk-padding uk-padding-remove-bottom uk-animation-fade">
+  <div class="uk-grid">
+    <div class="uk-width-1-3">
+      <ul class="uk-nav uk-nav-default">
+        <li class="uk-nav-header">Telegram</li>
+        <li><a href="{{ site.links.telegram }}">Announcement Channel</a></li>
+        <li><a href="{{ site.links.telegram_en }}">English Community</a></li>
+        <li class="uk-nav-divider"></li>
+        <li><a href="{{ site.links.telegram_jp }}">Japanese Community</a></li>
+        <li><a href="{{ site.links.telegram_vn }}">Vietnamese Community</a></li>
+        <li><a href="{{ site.links.telegram_id }}">Indonesian Community</a></li>
+      </ul>
+    </div>
+    <div class="uk-width-1-3">
+      <ul class="uk-nav uk-nav-default">
+        <li class="uk-nav-header">Links</li>
+        <li><a href="{{ site.links.twitter }}">Twitter</a></li>
+        <li><a href="{{ site.links.github }}">GitHub</a></li>
+        <li><a href="{{ site.links.medium }}">Medium</a></li>
+        <li class="uk-nav-divider"></li>
+        <li><a href="https://etherscan.io/token/{{ site.token_contract }}">Token Contract</a></li>
+        <li><a href="https://sale.starcurve.io">Sale Portal</a></li>
+      </ul>
+    </div>
+    <div class="uk-width-1-3">
+      <ul class="uk-nav uk-nav-default">
+        <li class="uk-nav-header">Contact</li>
+        For inquiries contact a community moderator on Telegram,
+        or reach out to team [at] starcurve.io.
+        <li class="uk-nav-header">Backed by</li>
+        <a href="https://medium.com/@ContinueCapital/continue-capital-invested-in-the-dex-aggregator-starcurve-a5a6497442d1"
+           target="_blank">
+          <img src="{{ '/assets/images/continue.png' | relative_url }}"
+               alt="Continue Capital logo" class="vc-logo">
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<small class="uk-padding uk-padding-remove-bottom uk-margin-small-bottom rev">
+  English • <a href="/cn/">Chinese</a>
+  | Rev.
+  <a href="https://github.com/StarCurve/website/commit/{{ site.github.build_revision }}">
+    {{ site.github.build_revision | slice: 0, 7 }}
+  </a>
+</small>
+
+<script>
+    const lang = window.navigator.userLanguage || window.navigator.language
+    if (lang && lang.toLowerCase().includes('zh') && localStorage.getItem('redirected') === null) {
+        localStorage.setItem('redirected', '1')
+        location.href += 'cn'
+    }
+</script>
+
+</body>
+</html>
