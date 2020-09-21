@@ -121,6 +121,10 @@ $c-uniswap: #ff409c;
   max-width: 100%;
 }
 
+.fp_contain {
+  object-fit: contain;
+}
+
 #filter {
   div {
     color: $c-black;
